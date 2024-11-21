@@ -58,6 +58,10 @@ body {
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
+    
+    --font-grotesk: "Space Grotesk", sans-serif;
+    
+    --font-sora: 'Sora', sans-serif;
   }
   .dark {
     --background: 0 0% 3.9%;
@@ -93,4 +97,63 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* font sizes */
+.title {
+  @apply text-4xl  lg:text-7xl;
+  @apply font-extrabold;
+
+}
+.heading {
+  @apply text-2xl lg:text-4xl;
+  @apply font-bold capitalize;
+  @apply font-grotesk;
+}
+.subheading {
+  @apply text-sm leading-normal lg:text-[1.2rem] lg:leading-9;
+  @apply font-semibold;
+  @apply font-sora;
+}
+.subheading2 {
+  @apply text-sm leading-normal lg:text-[1.2rem] lg:leading-9;
+  @apply font-semibold;
+  @apply font-grotesk;
+}
+.items {
+  @apply text-base font-bold  text-muted-foreground md:text-xl;
+  @apply font-grotesk;
+}
+.para {
+  @apply text-sm font-bold text-black text-muted-foreground md:text-xl;
+  @apply font-sora;
+}
+.smallHeading {
+  @apply text-base font-extrabold  md:text-xl;
+  @apply font-grotesk;
+}
+.smallPara {
+  @apply text-sm text-muted-foreground;
+  @apply font-sora;
+}
+.smallcaption {
+  @apply text-lg text-muted-foreground font-semibold;
+  @apply font-sora;
+}
+.body {
+  @apply text-base lg:text-lg;
+  @apply font-extralight;
+  @apply font-sora;
+}
+.caption {
+  @apply text-xs md:text-sm lg:text-base;
+  @apply tracking-wider;
+  @apply font-sora;
+}
+
+/* layout */
+.content-container {
+  @apply max-w-screen-xl;
+  @apply mx-auto;
+  @apply p-4 py-6 md:p-12 md:py-12;
 }
