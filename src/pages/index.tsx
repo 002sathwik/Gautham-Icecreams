@@ -3,6 +3,8 @@ import { Sora, Space_Grotesk } from 'next/font/google';
 import Head from "next/head";
 import Navbar from "@/components/nav";
 import HeroSection from "@/components/hero";
+import { TimelineDemo } from "@/components/menu";
+import { AnimatedTestimonialsDemo } from "@/components/offer";
 
 
 
@@ -31,6 +33,8 @@ export default function Home() {
       </Head>
       <Navbar />
       <HeroSection/>
+      <TimelineDemo/>
+      <AnimatedTestimonialsDemo/>
 
     </>
     </div>

@@ -9,7 +9,7 @@ export default function Navbar() {
      className=" bg-gradient-to-r from-pink-700  to-yellow-500 ">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
+         
           <div className="flex-shrink-0">
             <Image
               width={64}
@@ -20,7 +20,7 @@ export default function Navbar() {
            
           </div>
 
-          {/* Desktop Navigation Links */}
+          
           <div className="hidden md:flex space-x-8 font-sora text-white">
             <a
               href="#flavours"
@@ -42,7 +42,7 @@ export default function Navbar() {
             </a>
           </div>
 
-          {/* Mobile Menu Button */}
+          
           <div className="flex md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -75,7 +75,7 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* Mobile Menu */}
+        
         {isMenuOpen && (
           <div className="md:hidden">
             <a
