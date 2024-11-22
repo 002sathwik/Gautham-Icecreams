@@ -168,7 +168,7 @@ export function TimelineDemo() {
    
   ]; 
   return (
-    <div className="w-full ">
+    <div className=" relative -mt-28 z-20 w-full ">
       <Timeline data={data} />
     </div>
   );

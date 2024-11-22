@@ -26,12 +26,12 @@ export function AnimatedTestimonialsDemo() {
 
     ];
     return (
-        <div className="bg-gradient-to-b from-pink-700 via-green-300 to-amber-500">
+        <div className="bg-gradient-to-b from-pink-700 via-green-500 to-amber-500">
             <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
                 <h2 className="  heading  mb-4 text-white max-w-4xl font-grotesk">
                     "What We Offer for You"
                 </h2>
-                <p className="text-neutral-300 dark:text-neutral-300 text-sm md:text-base max-w-sm font-sora">
+                <p className="  text-gray-200 text-sm md:text-base max-w-sm font-sora">
                 At Gautham Icecream, we’re not just about serving delicious ice cream; we’re about creating memorable experiences for your celebrations.
                 </p>
             </div>
