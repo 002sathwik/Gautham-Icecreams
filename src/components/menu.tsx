@@ -106,7 +106,7 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "Vanila  ",
+      title: "Vanilla  ",
       content: (
         <div>
         
