@@ -4,6 +4,7 @@ import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import BoxReveal from "./box-reveal";
 
 type Testimonial = {
   quote: string;
@@ -112,9 +113,12 @@ export const AnimatedTestimonials = ({
               ease: "easeInOut",
             }}
           >
-            <h3 className="text-2xl font-grotesk font-bold text-p text-black">
-              {testimonials[active].name}
+                        <BoxReveal boxColor={"#EB3678"} duration={0.5}>
+
+            <h3 className=" heading  font-grotesk font-bold text-p text-black">
+              "{testimonials[active].name}"
             </h3>
+            </BoxReveal>
             <p className="text-sm text-gray-100 dark:text-neutral-500 font-sora">
               {testimonials[active].designation}
             </p>
