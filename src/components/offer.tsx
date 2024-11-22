@@ -22,7 +22,7 @@ export function AnimatedTestimonialsDemo() {
                 "This solution has significantly improved our team's productivity. The intuitive interface makes complex tasks simple.",
             name: "Other Events",
             designation: "Order Above 300",
-            src: "/occ.jpg",
+            src: "/p1.jpg",
         },
 
     ];

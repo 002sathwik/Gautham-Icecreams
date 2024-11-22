@@ -17,7 +17,7 @@ export default function HeroSection() {
         muted={!muted}
         className="absolute top-0 left-0 w-full h-full object-cover z-10 -mt-14 "
       >
-        <source src="/vid.mp4" type="video/mp4" />
+        <source src="/v3.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
@@ -46,3 +46,4 @@ export default function HeroSection() {
     </div>
   );
 }
+
