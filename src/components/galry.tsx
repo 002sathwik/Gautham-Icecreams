@@ -114,6 +114,7 @@ export const SkeletonTwo = () => {
   const videos = [
     "/v1.mp4", 
     "/v2.mp4", 
+    "/v4.mp4",
   ];
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
 

@@ -7,6 +7,9 @@ import { TimelineDemo } from "@/components/menu";
 import { AnimatedTestimonialsDemo } from "@/components/offer";
 import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
 import { FeaturesSectionDemo } from "@/components/galry";
+import ContactSticky from "@/components/phone";
+import Footer from "@/components/footer";
+import ContactSection from "@/components/adress";
 
 
 
@@ -40,6 +43,9 @@ export default function Home() {
       <AnimatedTestimonialsDemo/>
       <FeaturesSectionDemo />
       </BackgroundBeamsWithCollision>
+      <ContactSticky/>
+      <ContactSection/>
+      <Footer/>
 
     </>
     </div>

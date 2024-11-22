@@ -37,7 +37,7 @@ export default function HeroSection() {
         <h1 className="text-white text-5xl md:text-6xl font-bold font-grotesk bg-opacity-60 inline-block px-4 py-2 rounded-lg ">
           Experience Magic of Gautham Icecream
         </h1>
-        <p className="mt-2 caption max-w-2xl mx-auto font-sora p-1 md:p-0">
+        <p className="mt-2 caption max-w-2xl mx-auto font-sora p-3 md:p-0">
           Your Favorite Icecream, Made with Love, A Symphony of Flavors in Every Scoop 🍦🧁
         </p>
       </div>
