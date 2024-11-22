@@ -11,14 +11,14 @@ export function FeaturesSectionDemo() {
         "friendly face greeting you as your ice cream cone is served with a genuine smile. It’s not just about the treat;😊🍦 ",
       skeleton: <SkeletonOne />,
       className:
-        "col-span-1 lg:col-span-4 border rounded-2xl  border-black  bg-gradient-to-b from-yellow-400 via-green-500 to-pink-400 ",
+        " m-2 col-span-1 lg:col-span-4 border rounded-2xl  border-black  bg-gradient-to-b from-yellow-400 via-green-500 to-pink-400 ",
     },
     {
       title: "Hygienic and Advanced Softy Machines",
       description:
         "With cutting-edge automation, they minimize human handling, preserving the freshness and purity of every batch.🌟🍦",
       skeleton: <SkeletonTwo />,
-      className: "border border-black  rounded-2xl col-span-1 lg:col-span-2 bg-gradient-to-b from-pink-400 via-green-500 to-yellow-400", 
+      className: " m-2 border border-black  rounded-2xl col-span-1 lg:col-span-2 bg-gradient-to-b from-pink-400 via-green-500 to-yellow-400", 
     },
 
   ];
@@ -87,8 +87,8 @@ const FeatureDescription = ({ children }: { children?: React.ReactNode }) => {
 
 export const SkeletonOne = () => {
   return (
-    <div className="relative flex py-8 px-2 gap-10 h-full ">
-      <div className="w-full  p-5  mx-auto  dark:bg-neutral-900 shadow-2xl group h-full">
+    <div className="relative flex py-8 px-1 gap-10 h-full ">
+      <div className="w-full   mx-auto  dark:bg-neutral-900 shadow-2xl group h-full">
         <div className="flex flex-1 w-full h-full flex-col space-y-2  ">
           {/* TODO */}
           <Image
@@ -136,7 +136,7 @@ export const SkeletonTwo = () => {
   }, [videos.length]);
 
   return (
-    <div className="relative flex items-center justify-center h-full w-full ">
+    <div className=" relative flex items-center justify-center h-full w-full ">
       <video
         id="loopVideo"
         src={videos[currentVideoIndex]}
