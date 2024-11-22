@@ -1,6 +1,6 @@
 export default function ContactSection() {
     return (
-      <section className="py-16   bg-gradient-to-tr from-amber-300  bg-green-400">
+      <section id="adress" className="py-16   bg-gradient-to-tr from-amber-300  bg-green-400">
         <div className="container mx-auto  px-2 md:px-6">
           <h2 className="text-3xl font-semibold text-center text-gray-800 mb-8 font-grotesk">
             Contact Us

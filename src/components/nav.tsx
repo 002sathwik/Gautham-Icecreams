@@ -23,13 +23,13 @@ export default function Navbar() {
           
           <div className=" font-sora hidden md:flex space-x-8  text-white">
             <a
-              href="#flavours"
+              href="#menu"
               className=" hover:text-gray-900 font-medium"
             >
               Flavours
             </a>
             <a
-              href="#address"
+              href="#adress"
               className=" hover:text-gray-900 font-medium"
             >
               Address
@@ -79,19 +79,19 @@ export default function Navbar() {
         {isMenuOpen && (
           <div className="md:hidden font-sora ">
             <a
-              href="#flavours"
+              href="#menu"
               className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
             >
               Flavours
             </a>
             <a
-              href="#address"
+              href="#adress"
               className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
             >
               Address
             </a>
             <a
-              href="#orders"
+                 href="#orders"
               className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
             >
               Orders

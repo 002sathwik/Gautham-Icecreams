@@ -27,6 +27,7 @@ export function AnimatedTestimonialsDemo() {
 
     ];
     return (
+        <section id="orders">
         <div className="bg-gradient-to-b from-pink-700 via-green-500 to-amber-500">
             <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
             <BoxReveal boxColor={"#EBF400"} duration={0.5}>
@@ -40,5 +41,6 @@ export function AnimatedTestimonialsDemo() {
             </div>
             <AnimatedTestimonials testimonials={testimonials} />
         </div>
+        </section>
     );
 }

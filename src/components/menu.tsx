@@ -168,8 +168,10 @@ export function TimelineDemo() {
    
   ]; 
   return (
-    <div className=" relative -mt-28 z-20 w-full ">
+    <section id="menu">
+    <div className=" relative -mt-28 z-20 w-full " >
       <Timeline data={data} />
     </div>
+    </section>
   );
 }
