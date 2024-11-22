@@ -21,7 +21,7 @@ export default function Navbar() {
           </div>
 
           
-          <div className="hidden md:flex space-x-8 font-sora text-white">
+          <div className=" font-sora hidden md:flex space-x-8  text-white">
             <a
               href="#flavours"
               className=" hover:text-gray-900 font-medium"
@@ -77,7 +77,7 @@ export default function Navbar() {
 
         
         {isMenuOpen && (
-          <div className="md:hidden">
+          <div className="md:hidden font-sora ">
             <a
               href="#flavours"
               className="block px-4 py-2 text-gray-700 hover:bg-gray-100"

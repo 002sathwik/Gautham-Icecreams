@@ -11,16 +11,15 @@ export default function HeroSection() {
   return (
     <div className="relative h-screen w-full overflow-hidden">
 
-      <video
-        autoPlay
-        loop
-        muted={!muted}
-        className="absolute top-0 left-0 w-full h-full object-cover z-10 -mt-14 "
-      >
-        <source src="/v3.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
 
+      <video
+        id="loopVideo"
+        src={"/v3.mp4"}
+        className="absolute top-0 left-0 w-full h-full object-cover z-10 -mt-14"
+        autoPlay
+        muted={!muted}
+        loop
+      />
 
 
       <button
